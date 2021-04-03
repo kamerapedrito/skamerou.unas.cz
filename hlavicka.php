@@ -1,21 +1,27 @@
-<?php
-function hlavicka($title, $description = "") {
-?>
-<!doctype html>
-<meta charset="utf-8">
-<title><?=empty($title) ? "Název webu" : $title . " – Název webu"?></title>
-<?php if (!empty($description)) { ?>
-<meta name="description" content="<?=$description?>">
-<?php } ?>
-<rel="stylesheet" type="text/css" href="styl.css">
-…
-<div class=container>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"; >
+    <!- poznamka ->
+    <meta name="generator" content="PSPad editor, www.pspad.com">
+    <title> Osobní</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+    <div class="obalovaci">
+    <div class="div-1">
+    <body background='nic.jpg'>
+      <p style="text-align: left">
+        <bold>
+          <a href="http://www.skamerou.unas.cz"style="text-decoration:none;color:black">Home</a>&nbsp;&nbsp;
+          <a href="http://www.skamerou.unas.cz"style="text-decoration:none;color:black">O mně</a>&nbsp;&nbsp;
+          <a href="http://www.skamerou.unas.cz"style="text-decoration:none;color:black">Blog</a>&nbsp;&nbsp;
+          <a href="http://www.skamerou.unas.cz"style="text-decoration:none;color:black">Kontkat</a>
+        </bold>
+      </p>
 
-  <div class=menu>
-    <a href="./">Hlavní strana</a>
-    <a href="./druha.php">Druhá</a>
-    <a href="./treti.php">Třetí</a>
-  </div>
+      <div><img src="hlavni.jpg" height="300" >
+      </div>
+    </div>
 
-<div class=content>
-<?php } ?>
+
+  </body>
+</html>

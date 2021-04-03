@@ -3,7 +3,7 @@
 #.hlavicka2 {position: absolute; width: 800px; top: 444px; left:50px; }
 
 .div-1 {
-  top: 10px
+  top: 20px
   background-color: white;
   height: 100px;
   width: 800px;
@@ -19,16 +19,27 @@
 }
 
 .div-3 {
+  position: absolute;
+  top: 30px;
+  width: 400px;
+  font-size: 10px;
+  color: white;
+}
+
+.div-4 {
+  position: absolute;
+  top:330px;
   background-color: white;
-  top: 500px;
   width: 800px;
   font-size: 18px;
   color: black;
-  }
-  .div-4 {
-    position: absolute;
-    top: 130px;
-    width: 400px;
-    font-size: 10px;
-    color: white;
-  }
+    }
+
+  .div-5 {
+  position: absolute;
+  top:320px;
+  background-color: white;
+  width: 800px;
+  font-size: 18px;
+  color: black;
+        }
