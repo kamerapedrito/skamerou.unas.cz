@@ -13,16 +13,7 @@
 <?php
   include "hlavicka.php";
 ?>
-
-    <div class="obalovaci">
-
-
-    
-      <p style="text-align: left; font-family: 'Candara', Helvetica;">
-        <h1>&nbsp;&nbsp;Petr Vyškovský<h1></p>
-    </div>
-
-    <div class="div-4">
+    <div class="div-odstavec4">
         <p style="text-align: left; font-family: 'Candara', Helvetica;">
        Lorem ipsum dolor sit amet, consectetur adipiscing elit,
         sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
